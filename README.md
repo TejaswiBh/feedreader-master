@@ -114,11 +114,11 @@ To run the feedreader project, we require `internet`.
 
 ## Steps followed
 
-  ***I have followed the below steps to create test suites and then pass the specs in it***
+  *** I have followed the below steps to create test suites and then pass the specs in it ***
 
-    **Initially, I have taken the first test suite named RSS Feeds**
+    ** Initially, I have taken the first test suite named RSS Feeds **
 
-      - In **RSS Feeds**, I have written the first spec called `are defined` to make sure that the allFeeds variable has been defined  and it is not empty and then made sure that it is passed.
+      * In **RSS Feeds**, I have written the first spec called `are defined` to make sure that the allFeeds variable has been defined  and it is not empty and then made sure that it is passed.
 
       - I have written the second spec called `url is defined` in RSS Feeds to make sure that it loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty and then made sure that it is passed.
 
