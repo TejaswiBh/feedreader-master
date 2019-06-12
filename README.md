@@ -8,7 +8,7 @@
 - [How will this help my career?](#How-will-this-help-my-career)
 - [Development Strategy](#Development-Strategy)
 - [Scratch Project link](#Scratch-Project-link)
-- [Steps followed](#Steps-followed)
+- [Steps followed](Steps-followed)
 - [How to run the Project](#How-to-run-the-Project)
 - [Contributing](#Contributing)
 
@@ -114,33 +114,33 @@ To run the feedreader project, we require `internet`.
 
 ## Steps followed
 
-  *** I have followed the below steps to create test suites and then pass the specs in it ***
+   **I have followed the below steps to create test suites and then pass the specs in it**
 
-    ** Initially, I have taken the first test suite named RSS Feeds **
+     _Initially, I have taken the first test suite named RSS Feeds_
 
-      * In **RSS Feeds**, I have written the first spec called `are defined` to make sure that the allFeeds variable has been defined  and it is not empty and then made sure that it is passed.
+      - In **RSS Feeds**, I have written the first spec called `are defined` to make sure that the allFeeds variable has  been defined and it is not empty and then made sure that it is passed.
 
-      - I have written the second spec called `url is defined` in RSS Feeds to make sure that it loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty and then made sure that it is passed.
+- I have written the second spec called `url is defined` in RSS Feeds to make sure that it loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty and then made sure that it is passed.
 
-      - I have written the third spec called `name is defined` in RSS Feeds to make sure that it loops through each feed in the allFeeds  object and ensures it has a name defined and that the name is not empty and then made sure that it is passed.
+- I have written the third spec called `name is defined` in RSS Feeds to make sure that it loops through each feed in the allFeeds object and ensures it has a name defined and that the name is not empty and then made sure that it is passed.
 
-    **Next, I have taken the second test suite named The menu**
+  _Next, I have taken the second test suite named The menu._
 
-      - In **The menu**, I have written the first spec called `menu is hidden` to make sure that the menu element is hidden by default and made sure that it is passed.
+- In **The menu**, I have written the first spec called `menu is hidden` to make sure that the menu element is hidden by default and made sure that it is passed.
 
-      - In The menu, I have written the second spec called `menu visibility` to make sure that the menu visibility changes when the menu icon is clicked and then made sure that it is passed.
+- In The menu, I have written the second spec called `menu visibility` to make sure that the menu visibility changes when the menu icon is clicked and then made sure that it is passed.
 
-    **Next, I have taken the third test suite named Initial Entries**
+  _Next, I have taken the third test suite named Initial Entries_
 
-      - I have written the first spec called `a single entry element in the feed container` to make sure that the LoadFeed function is called and completes its work and then makes sure that there is at least a single .entry element within the .feed container. I also ensured that the spec is passed.
+- I have written the first spec called `a single entry element in the feed container` to make sure that the LoadFeed function is called and completes its work and then makes sure that there is at least a single .entry element within the .feed container. I also ensured that the spec is passed.
 
-    **Next, I have taken the fourth test suite named New Feed Selection**
+  _Next, I have taken the fourth test suite named New Feed Selection_
 
-      - I have written the first spec called `to load a new feed` to make sure that when a new feed is loaded by the loadFeed function then the content actually changes. Here, `beforeEach` and `done()` functions are used since `LoadFeed()` is `asynchronous`. I also made sure that the spec is passed.
+- I have written the first spec called `to load a new feed` to make sure that when a new feed is loaded by the loadFeed function then the content actually changes. Here, `beforeEach` and `done()` functions are used since `LoadFeed()` is `asynchronous`. I also made sure that the spec is passed.
 
 ## How to run the Project
 
-    After extracting the scratch project of the feedreader, open the **index.html** page to observe the static view of the project. Initially, in the output we will get 0 specs and 0 failures. Then we should write tests for each test suite which are specified in feedreader.js and observe the output by reloading the index.html whether the tests are passed without any failures or not. After all tests are passed, then the project is made to be tested successfully using `jasmine` framework.
+After extracting the scratch project of the feedreader, open the **index.html** page to observe the static view of the project. Initially, in the output we will get 0 specs and 0 failures. Then we should write tests for each test suite which are specified in feedreader.js and observe the output by reloading the index.html whether the tests are passed without any failures or not. After all tests are passed, then the project is made to be tested successfully using jasmine framework.
 
 ## Contributing
 
