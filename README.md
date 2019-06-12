@@ -8,7 +8,7 @@
 - [How will this help my career?](#How-will-this-help-my-career)
 - [Development Strategy](#Development-Strategy)
 - [Scratch Project link](#Scratch-Project-link)
-- [Steps followed](Steps-followed)
+- [Steps followed](#Steps-followed)
 - [How to run the Project](#How-to-run-the-Project)
 - [Contributing](#Contributing)
 
@@ -140,7 +140,7 @@ To run the feedreader project, we require `internet`.
 
 ## How to run the Project
 
-After extracting the scratch project of the feedreader, open the **index.html** page to observe the static view of the project. Initially, in the output we will get 0 specs and 0 failures. Then we should write tests for each test suite which are specified in feedreader.js and observe the output by reloading the index.html whether the tests are passed without any failures or not. After all tests are passed, then the project is made to be tested successfully using jasmine framework.
+After extracting the scratch project of the feedreader, open the **index.html** page to observe the `static view` of the project. Initially, in the output we will get 0 specs and 0 failures. Then we should write tests for each test suite which are specified in feedreader.js and observe the output by reloading the index.html whether the tests are passed without any failures or not. After all tests are passed, then the project is made to be tested successfully using `jasmine` framework.
 
 ## Contributing
 
