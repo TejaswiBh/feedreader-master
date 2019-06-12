@@ -114,7 +114,7 @@ To run the feedreader project, we require `internet`.
 
 ## Steps followed
 
-   **I have followed the below steps to create test suites and then pass the specs in it**
+   ** I have followed the below steps to create test suites and then pass the specs in it **
 
      _Initially, I have taken the first test suite named RSS Feeds_
 
