@@ -1,4 +1,4 @@
-# Freedreader master Project
+# Feedreader master Project
 
 ## Table of Contents
 
@@ -114,29 +114,29 @@ To run the feedreader project, we require `internet`.
 
 ## Steps followed
 
-   ** I have followed the below steps to create test suites and then pass the specs in it **
+**I have followed the below steps to create test suites and then pass the specs in it**
 
-     _ Initially, I have taken the first test suite named RSS Feeds _
+ _Initially, I have taken the first test suite named RSS Feeds_
 
-      - In **RSS Feeds**, I have written the first spec called `are defined` to make sure that the allFeeds variable has  been defined and it is not empty and then made sure that it is passed.
+- In **RSS Feeds**, I have written the first spec called `are defined` to make sure that the allFeeds variable has  been defined and it is not empty and then made sure that it is passed.
 
-- I have written the second spec called `url is defined` in RSS Feeds to make sure that it loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty and then made sure that it is passed.
+ - I have written the second spec called `url is defined` in RSS Feeds to make sure that it loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty and then made sure that it is passed.
 
-- I have written the third spec called `name is defined` in RSS Feeds to make sure that it loops through each feed in the allFeeds object and ensures it has a name defined and that the name is not empty and then made sure that it is passed.
+ - I have written the third spec called `name is defined` in RSS Feeds to make sure that it loops through each feed in the allFeeds object and ensures it has a name defined and that the name is not empty and then made sure that it is passed.
 
-  _Next, I have taken the second test suite named The menu._
+ _Next, I have taken the second test suite named The menu_
 
-- In **The menu**, I have written the first spec called `menu is hidden` to make sure that the menu element is hidden by default and made sure that it is passed.
+ - In **The menu**, I have written the first spec called `menu is hidden` to make sure that the menu element is hidden by default and made sure that it is passed.
 
-- In The menu, I have written the second spec called `menu visibility` to make sure that the menu visibility changes when the menu icon is clicked and then made sure that it is passed.
+ - In The menu, I have written the second spec called `menu visibility` to make sure that the menu visibility changes when the menu icon is clicked and then made sure that it is passed.
 
-  _Next, I have taken the third test suite named Initial Entries_
+ _Next, I have taken the third test suite named Initial Entries_
 
-- I have written the first spec called `a single entry element in the feed container` to make sure that the LoadFeed function is called and completes its work and then makes sure that there is at least a single .entry element within the .feed container. I also ensured that the spec is passed.
+ - I have written the first spec called `a single entry element in the feed container` to make sure that the LoadFeed function is called and completes its work and then makes sure that there is at least a single .entry element within the .feed container. I also ensured that the spec is passed.
 
-  _Next, I have taken the fourth test suite named New Feed Selection_
+ _Next, I have taken the fourth test suite named New Feed Selection_
 
-- I have written the first spec called `to load a new feed` to make sure that when a new feed is loaded by the loadFeed function then the content actually changes. Here, `beforeEach` and `done()` functions are used since `LoadFeed()` is `asynchronous`. I also made sure that the spec is passed.
+ - I have written the first spec called `to load a new feed` to make sure that when a new feed is loaded by the loadFeed function then the content actually changes. Here, `beforeEach` and `done()` functions are used since `LoadFeed()` is `asynchronous`. I also made sure that the spec is passed.
 
 ## How to run the Project
 
